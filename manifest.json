@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Donald Derp",
+    "version": "0.1",
+    "icons": {
+      "48": "icons/don48.png"
+    },
+    "description": "Replaces the Don's surname with 'Derp'",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["filter.js"]
+      }
+    ]
+  }
